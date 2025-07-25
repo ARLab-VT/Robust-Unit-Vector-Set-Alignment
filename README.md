@@ -2,27 +2,35 @@
 
 ## Overview
 
-This repository contains the implementation and resources for **Spherical Point Pattern Registration** algorithms developed for **Experiment 1**. The following directories and files are included:
+This repository provides the implementation and resources for **Spherical Point Pattern Registration** algorithms developed as part of **Experiment 1**. These algorithms aim to robustly align vector fields on the unit sphere.
 
-- **`vector_alignment_dataset/`**: Contains the dataset created for Experiment 1.
-- **`vector_alignment_utils.py`**: Includes all the necessary functions for the basic algorithms:
-  - **SPMC**
-  - **FRS**
-  - **SPMC+FRS**
-- **`vector_alignment_visualization_utils.py`**: Contains functions for visualizing the alignment process and results.
-- **`exp1_example.ipynb`**: A Jupyter Notebook demonstrating the basic implementation of the algorithms. It:
-  - Loads a source pattern and template pattern.
-  - Provides options to choose the desired algorithm version.
-  - Performs the registration process.
+### Directory Structure
+
+- **`vector_alignment_dataset/`**  
+  Contains the dataset curated for Experiment 1.
+
+- **`vector_alignment_utils.py`**  
+  Implements the core alignment algorithms:
+  - **SPMC** (Spherical Probabilistic Matching via Correlation)
+  - **FRS** (Fast Rotation Search)
+  - **SPMC+FRS** (Hybrid approach)
+
+- **`vector_alignment_visualization_utils.py`**  
+  Includes utilities for visualizing the alignment process and evaluating results.
+
+- **`exp1_example.ipynb`**  
+  Jupyter Notebook demonstrating:
+  - Loading of source and template patterns
+  - Selection of the desired algorithm
+  - Execution of the registration pipeline with visual feedback
 
 ## Installation
 
-Follow these steps to set up and run the project:
-
 ### Prerequisites
 
-Ensure you have the following installed:
-- **Python**: Version 3.8 or higher
+- **Python** ≥ 3.8
+
+It is recommended to use a virtual environment to manage dependencies.
 
 ### Step 1: Clone the Repository
 

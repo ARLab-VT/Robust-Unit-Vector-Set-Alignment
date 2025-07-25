@@ -30,29 +30,13 @@ This repository provides the implementation and resources for **Spherical Point 
 
 - **Python** ≥ 3.8
 
-It is recommended to use a virtual environment to manage dependencies.
-
 ### Step 1: Clone the Repository
 
 ```bash
 git clone https://github.com/<your-username>/<repository-name>.git
 cd <repository-name>
 ```
-### Step 2: Create and Activate a Virtual Environment
-
-- **`On Unix/Linux/MacOS:/`**
-```bash
-python3 -m venv venv
-source venv/bin/activate
-```
-
-- **`On Windows:/`**
-```bash
-python -m venv venv
-venv\Scripts\activate
-```
-
-### Step 3: Install Dependencies
+### Step 2: Install Dependencies
 ```bash
 pip install -r requirements.txt
 ```
